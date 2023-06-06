@@ -54,8 +54,8 @@
         </div>
         <!-- scroll up area end -->
 
-<!-- header area start -->
-<header>
+ <!-- header area start -->
+ <header>
     <div class="header__area p-relative header__transparent">
         <div class="header__top d-none d-md-block">
             <div class="container">
@@ -63,10 +63,10 @@
                     <div class="col-xl-6 col-lg-5 col-md-4">
                         <div class="header__social">
                             <ul>
-                                <li><a href="https://www.facebook.com/Edestemza/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://twitter.com/Edeste_mza"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.instagram.com/edestemza/"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.youtube.com/channel/UCENMTHK2CkZEfUm0rlHZtOQ?view_as=subscriber"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="https://www.facebook.com/Edestemza/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/Edeste_mza" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/edestemza/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCENMTHK2CkZEfUm0rlHZtOQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -74,20 +74,15 @@
                         <div class="header__info f-right">
                             <ul>
                                 <li>
-                                    <a href="tel:(+468)-254-762-443">
+                                    <a href="tel:0800-666-3337">
                                         <i class="fal fa-phone-alt"></i>
                                         0800-666-3337
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="mailto:info@consulting.com">
+                                    <a href="mailto:Info@edeste.com.ar">
                                         <i class="fal fa-envelope"></i>
                                         Info@edeste.com.ar
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);" class="search-toggle">
-                                        <i class="far fa-search"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -119,18 +114,27 @@
                                         <li>
                                             <a href="index.html">Home</a>
                                         </li>
-                                        <li><a href="institucional.html">Institucional</a></li>
-                                        <li><a href="#">Integridad</a></li>
+                                        <li>
+                                            <a href="institucional.html">Institucional</a>
+                                            <ul class="submenu">
+                                                <li><a href="areaconcesion.html">Áreas de concesión</a></li>
+                                                <li><a href="politicacompromiso.html">Política y compromiso</a></li>
+                                                <li><a href="historia.html">Nuestra historia</a></li>
+                                                <li><a href="datosgenerales.html">Datos generales</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="integridad.html">Integridad</a></li>
                                         <li>
                                             <a href="#">Servicios al usuario</a>
                                             <ul class="submenu">
-                                                <li><a href="#">Normativa</a></li>
-                                                <li><a href="#">Usuario pequeña demanda</a></li>
-                                                <li><a href="#">Usuario grande demanda</a></li>
-                                                <li><a href="#">Usuario riego agrícola</a></li>
-                                                <li><a href="#">Tarifa social</a></li>
-                                                <li><a href="#">Generación distribuida</a></li>
-                                                <li><a href="#">Tarifa electrodependientes</a></li>
+                                                <li><a href="normativa.html">Normativa</a></li>
+                                                <li><a href="usuariopequenademanda.html">Usuario pequeña demanda</a></li>
+                                                <li><a href="usuariograndesdemandas.html">Usuario grande demanda</a></li>
+                                                <li><a href="usuarioriegoagricola.html">Usuario riego agrícola</a></li>
+                                                <li><a href="tarifasocial.html">Tarifa social</a></li>
+                                                <li><a href="generaciondistribuida.html">Generación distribuida</a></li>
+                                                <li><a href="tarifaelectrodependientes.html">Tarifa electrodependientes</a></li>
+                                                <li><a href="oficinas.html">Oficinas comerciales</a></li>
                                             </ul>
                                         </li>
 
@@ -138,7 +142,7 @@
                                 </nav>
                             </div>
                             <div class="header__btn d-none d-sm-block d-lg-none d-xl-block ml-50">
-                                <a href="contact.html" class="z-btn z-btn-white">Oficina virtual</a>
+                                <a href="https://www.optima.net.ar/factura_online/" class="z-btn z-btn-white">Oficina virtual</a>
                             </div>
                             <div class="sidebar__menu d-lg-none">
                                 <div class="sidebar-toggle-btn" id="sidebar-toggle">
@@ -169,81 +173,79 @@
 </header>
 <!-- header area end -->
 
-
-       <!-- sidebar area start -->
-        <section class="sidebar__area">
-            <div class="sidebar__wrapper">
-                <div class="sidebar__close">
-                    <button class="sidebar__close-btn" id="sidebar__close-btn">
-                        <span><i class="fal fa-times"></i></span>
-                        <span>close</span>
-                    </button>
+<!-- sidebar area start -->
+<section class="sidebar__area">
+    <div class="sidebar__wrapper">
+        <div class="sidebar__close">
+            <button class="sidebar__close-btn" id="sidebar__close-btn">
+                <span><i class="fal fa-times"></i></span>
+                <span>Cerrar</span>
+            </button>
+        </div>
+        <div class="sidebar__tab">
+            <ul class="nav nav-tabs" id="sidebar-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="menu-tab" data-toggle="tab" href="#menu" role="tab" aria-controls="menu" aria-selected="true">menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="info-tab" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">info</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar__content">
+            <div class="tab-content" id="sidebar-tab-content">
+                <div class="tab-pane fade show active" id="menu" role="tabpanel" aria-labelledby="menu-tab">
+                    <div class="logo mb-40">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="mobile-menu"></div>
                 </div>
-                <div class="sidebar__tab">
-                    <ul class="nav nav-tabs" id="sidebar-tab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="menu-tab" data-toggle="tab" href="#menu" role="tab" aria-controls="menu" aria-selected="true">menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="info-tab" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">info</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="sidebar__content">
-                    <div class="tab-content" id="sidebar-tab-content">
-                        <div class="tab-pane fade show active" id="menu" role="tabpanel" aria-labelledby="menu-tab">
-                            <div class="logo mb-40">
-                                <a href="index.html">
-                                    <img src="assets/img/logo/logo.png" alt="logo">
-                                </a>
-                            </div>
-                            <div class="mobile-menu"></div>
+                <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info-tab">
+                    <div class="sidebar__info">
+                        <div class="logo mb-40">
+                            <a href="index.html">
+                                <img src="assets/img/logo/logo.png" alt="logo">
+                            </a>
                         </div>
-                        <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info-tab">
-                            <div class="sidebar__info">
-                                <div class="logo mb-40">
-                                    <a href="index.html">
-                                        <img src="assets/img/logo/logo.png" alt="logo">
-                                    </a>
-                                </div>
-                                <a href="contact.html" class="z-btn z-btn-white">Oficina virtual</a>
-                                <div class="sidebar__contact mt-30">
-                                    <ul>
-                                        <li>
-                                            <div class="icon">
-                                                <i class="fal fa-map-marker-alt"></i>
-                                            </div>
-                                            <div class="text">
-                                                <span>Av. Boulogne Sur Mer 490 – San Martin – Mendoza – Arg.</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <i class="fal fa-envelope"></i>
-                                            </div>
-                                            <div class="text ">
-                                                <span><a href="mailto:Info@edeste.com.ar">Info@edeste.com.ar</a></span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="icon">
-                                                <i class="fas fa-phone-alt"></i>
-                                            </div>
-                                            <div class="text">
-                                                <span><a href="tel:0800-666-3337">0800-666-3337</a></span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <a href="https://www.optima.net.ar/factura_online/" class="z-btn z-btn-white">Oficina virtual</a>
+                        <div class="sidebar__contact mt-30">
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fal fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="text">
+                                        <span>Av. Boulogne Sur Mer 490 – San Martin – Mendoza – Arg.</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fal fa-envelope"></i>
+                                    </div>
+                                    <div class="text ">
+                                        <span><a href="mailto:Info@edeste.com.ar">Info@edeste.com.ar</a></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="text">
+                                        <span><a href="tel:0800-666-3337">0800-666-3337</a></span>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <div class="body-overlay"></div>
-        <!-- sidebar area end -->
-
+        </div>
+    </div>
+</section>
+<div class="body-overlay"></div>
+<!-- sidebar area end -->
 
         <main>
 
