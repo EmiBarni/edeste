@@ -2081,7 +2081,7 @@ p {
   color: #ffffff;
 }
 .about__list ul li span {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #1f1841;
   position: relative;
@@ -5413,3 +5413,7 @@ p {
   margin-bottom: 30px;
 }
 /*# sourceMappingURL=style.css.map */
+
+#espacio{
+  padding-bottom: 30px;
+}
